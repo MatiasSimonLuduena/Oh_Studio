@@ -1,0 +1,24 @@
+.nav-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+}
+.nav-container .nav-div_out {
+  display: flex;
+  background-color: rgba(232, 229, 228, 0.5019607843);
+  border-radius: 35px;
+}
+.nav-container .nav-div_out div {
+  padding: 12px 25px;
+  margin: 5px;
+  font-size: 0.9em;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.nav-container .nav-div_out div.active {
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */

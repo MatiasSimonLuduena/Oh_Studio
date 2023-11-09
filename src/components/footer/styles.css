@@ -1,0 +1,59 @@
+.footer-container .footer-div_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.footer-container .footer-div_top h2 {
+  font-size: 2.2em;
+  opacity: 0;
+  animation: init 1s forwards;
+}
+.footer-container .footer-div_top h2:last-child {
+  color: rgb(100, 100, 100);
+  cursor: pointer;
+}
+.footer-container .footer-div_top h2:last-child:hover {
+  color: gray;
+}
+.footer-container .footer-div_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  margin: 20px 4%;
+  padding: 20px 10px;
+}
+.footer-container .footer-div_bottom div {
+  display: flex;
+  align-items: center;
+}
+.footer-container .footer-div_bottom div svg {
+  width: 45px;
+  height: 45px;
+}
+.footer-container .footer-div_bottom div p {
+  font-size: 0.85em;
+}
+.footer-container .footer-div_bottom div a {
+  font-size: 0.85em;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.footer-container .footer-div_bottom div a:hover {
+  color: gray;
+}
+
+@keyframes init {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
