@@ -3,11 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px 0;
+  position: fixed;
+  top: 30px;
+  z-index: 3;
 }
 .nav-container .nav-div_out {
   display: flex;
   background-color: rgba(232, 229, 228, 0.5019607843);
+  backdrop-filter: blur(10px);
   border-radius: 35px;
 }
 .nav-container .nav-div_out div {
@@ -19,6 +22,19 @@
 }
 .nav-container .nav-div_out div.active {
   background-color: #fff;
+}
+.nav-container .nav-shop {
+  position: fixed;
+  bottom: 40px;
+  z-index: 3;
+  cursor: pointer;
+}
+.nav-container .nav-shop a {
+  background-color: black;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 0.9em;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -9,10 +9,14 @@
   width: calc(50% - 25px);
   position: relative;
   cursor: pointer;
+  transform: translateY(40px);
+  opacity: 0;
+  animation: init 1s forwards;
+  animation-delay: 0.3s;
 }
 .main-container .main_div div {
   width: 100%;
-  height: 60vh;
+  height: 100%;
 }
 .main-container .main_div div .main_image {
   width: 100%;
@@ -22,7 +26,7 @@
 }
 .main-container .main_div video {
   width: 100%;
-  height: 60vh;
+  height: 100%;
   border-radius: 15px;
   object-fit: cover;
 }
@@ -74,6 +78,7 @@
 @media (max-width: 820px) {
   .main-container .main_div {
     width: calc(100% - 25px);
+    margin: 15px 0;
   }
   .main-container .main_div p {
     display: block;

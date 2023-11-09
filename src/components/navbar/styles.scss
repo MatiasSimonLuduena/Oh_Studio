@@ -3,11 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px 0;
+    position: fixed;
+    top: 30px;
+    z-index: 3;
 
     .nav-div_out {
         display: flex;
         background-color: #e8e5e480;
+        backdrop-filter: blur(10px);
         border-radius: 35px;
 
         div {
@@ -20,6 +23,21 @@
 
         div.active {
             background-color: #fff;
+        }
+    }
+
+    .nav-shop {
+        position: fixed;
+        bottom: 40px;
+        z-index: 3;
+        cursor: pointer;
+
+        a {
+            background-color: black;
+            color: #fff;
+            padding: 12px 30px;
+            font-size: .9em;
+            border-radius: 20px;
         }
     }
 }

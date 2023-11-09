@@ -9,10 +9,14 @@
         width: calc(50% - 25px);
         position: relative;
         cursor: pointer;
+        transform: translateY(40px);
+        opacity: 0;
+        animation: init 1s forwards;
+        animation-delay: .3s;
 
         div {
             width: 100%;
-            height: 60vh;
+            height: 100%;
 
             .main_image {
                 width: 100%;
@@ -24,7 +28,7 @@
 
         video {
             width: 100%;
-            height: 60vh;
+            height: 100%;
             border-radius: 15px;
             object-fit: cover;
         }
@@ -85,6 +89,7 @@
     .main-container {
         .main_div {
             width: calc(100% - 25px);
+            margin: 15px 0;
 
             p {
                 display: block;
