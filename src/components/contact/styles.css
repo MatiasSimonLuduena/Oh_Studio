@@ -1,0 +1,13 @@
+.contact-container {
+  width: 100%;
+  height: calc(100vh - 310px);
+}
+
+@media (max-width: 820px) {
+  .contact-container {
+    width: 100%;
+    height: calc(100vh - 400px);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

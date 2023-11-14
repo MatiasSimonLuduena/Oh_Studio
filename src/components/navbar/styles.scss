@@ -14,14 +14,20 @@
         border-radius: 35px;
 
         div {
-            padding: 12px 25px;
-            margin: 5px;
+            padding: 18px 0;
+        }
+
+        a {
+            padding: 15px 20px;
+            color: #000;
+            text-decoration: none;
+            margin: 4px;
             font-size: .9em;
             border-radius: 35px;
             cursor: pointer;
         }
 
-        div.active {
+        a.active {
             background-color: #fff;
         }
     }
@@ -38,6 +44,7 @@
             padding: 12px 30px;
             font-size: .9em;
             border-radius: 20px;
+            text-decoration: none;
         }
     }
 }

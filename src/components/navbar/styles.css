@@ -14,13 +14,18 @@
   border-radius: 35px;
 }
 .nav-container .nav-div_out div {
-  padding: 12px 25px;
-  margin: 5px;
+  padding: 14px 0;
+}
+.nav-container .nav-div_out a {
+  padding: 12px 20px;
+  color: #000;
+  text-decoration: none;
+  margin: 4px;
   font-size: 0.9em;
   border-radius: 35px;
   cursor: pointer;
 }
-.nav-container .nav-div_out div.active {
+.nav-container .nav-div_out a.active {
   background-color: #fff;
 }
 .nav-container .nav-shop {
@@ -35,6 +40,7 @@
   padding: 12px 30px;
   font-size: 0.9em;
   border-radius: 20px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
