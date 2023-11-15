@@ -17,7 +17,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="nav-shop">
-                <NavLink to="/shop">Shop</NavLink>
+                <a>Shop</a>
             </div>
         </div>
     )

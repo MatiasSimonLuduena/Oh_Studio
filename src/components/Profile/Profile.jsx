@@ -1,10 +1,13 @@
 import "./styles.css"
+import { useEffect } from "react"
 
 import { cards, images } from "./data"
 
 const Profile = () => {
+  useEffect(() => window.scrollTo(0, 0), []);
+
   return (
-    <div className="profile-container">
+    <div className="profile-container" id="profile">
       <div className="profile-div_h1">
         <h1>Hey 👋🏼 I&apos;m Oli</h1>
       </div>
