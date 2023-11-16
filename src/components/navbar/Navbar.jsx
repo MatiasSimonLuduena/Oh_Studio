@@ -1,6 +1,6 @@
 import "./styles.css"
 
-import { NavLink } from "react-router-dom"
+import { NavLink, Link } from "react-router-dom"
 
 const Navbar = () => {
     return (
@@ -16,9 +16,9 @@ const Navbar = () => {
                     <NavLink to="/contact">Contact</NavLink>
                 </div>
             </div>
-            <div className="nav-shop">
+            <Link className="nav-shop" to="/coming-soon">
                 <a>Shop</a>
-            </div>
+            </Link>
         </div>
     )
 }
